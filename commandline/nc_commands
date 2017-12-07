@@ -1,0 +1,10 @@
+The ports are open!
+nc -l ip_address port : replace ip_address with the interface'
+ip address, you want the nc command to listen to
+port should be the port which should be listened to
+nc -l ip_address port > filename
+redirects the sent message to filename
+
+echo message | nc ip_address port
+specifies the destination 
+and the destination-machine's port the echo-message is sent to.
